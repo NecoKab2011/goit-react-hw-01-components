@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://media.tenor.com/zfPjkerGnI0AAAAe/my-singing-monsters-msm.png",
+    "name": "Blarret",
+    "isOnline": true,
+    "id": 1950
+  },
+  {
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSaFOL0xW9YK11PpRo5APRlC-mDlIQ4CZenA&s",
+    "name": "Monculus",
+    "isOnline": false,
+    "id": 1403
+  },
+  {
+    "avatar": "https://i1.sndcdn.com/artworks-000516059691-s8xjpv-t1080x1080.jpg",
+    "name": "Hornacle",
+    "isOnline": true,
+    "id": 1320
+  },
+  {
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrpuuKtOln9yDUOQaRdl5BeHBcDIZ8gh1GQ&s",
+    "name": "Auglur",
+    "isOnline": true,
+    "id": 1488
+  },
+  {
+    "avatar": "https://pm1.aminoapps.com/8292/fbfa5f9e0882ca362cc7cc1ab6a50f4b20236c02r1-700-700v2_uhq.jpg",
+    "name": "Edamimi",
+    "isOnline": false,
+    "id": 1111
+  }
+]
