@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "./App.module.scss";
 
 import user from "./info-data/user.json";
 import { Profile } from "./components/Profile/Profile";
@@ -11,7 +11,7 @@ import { TransactionHistory } from "./components/TransactionHistory/TransactionH
 
 function App() {
   return (
-    <>
+    <div className={styles.main}>
       <Profile
         avatar={user.avatar}
         username={user.username}
@@ -22,7 +22,7 @@ function App() {
       <Statistics title="Upload stats" stats={stats} />
       <FriendList friends={friends} />
       <TransactionHistory transactions={transactions} />
-    </>
+    </div>
   );
 }
 

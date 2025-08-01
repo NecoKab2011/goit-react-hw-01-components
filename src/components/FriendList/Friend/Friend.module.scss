@@ -1,0 +1,23 @@
+.status {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: #e52f4a;
+    border-radius: 50%;
+}
+
+[data-online="true"] {
+    background-color: #07b150;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 36px;
+}

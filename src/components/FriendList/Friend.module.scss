@@ -1,0 +1,17 @@
+.friends {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    &__item {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        background-color: #885e94;
+        border-radius: 20px;
+        padding: 18px 24px;
+    }
+}

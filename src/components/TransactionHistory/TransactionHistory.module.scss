@@ -1,0 +1,26 @@
+.table {
+    background-color: #7a8147;
+    width: 600px;
+    margin: 0 auto;
+    border: 2px black solid;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+
+    &__head {
+        background-color: #897660;
+    }
+
+    &__info {
+        border: 1px solid black;
+        padding: 8px 0;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    &__row {
+        &:nth-child(2n) {
+            background-color: #a05e92;
+        }
+    }
+}

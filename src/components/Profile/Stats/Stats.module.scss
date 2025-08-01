@@ -1,0 +1,29 @@
+.stats {
+    display: flex;
+    border: 5px solid gray;
+    border-radius: 20px;
+    margin-top: 20px;
+
+    &__item {
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 5px solid gray;
+        flex-direction: column;
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    &__info {
+        font-size: 18px;
+    }
+
+    &__quantity {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

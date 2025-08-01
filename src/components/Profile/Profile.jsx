@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import styles from "./Profile.module.scss";
 
 import { Avatar } from "./Avatar/Avatar.jsx";
 import { Username } from "./Username/Username.jsx";
@@ -8,8 +9,8 @@ import { Stats } from "./Stats/Stats.jsx";
 
 export const Profile = ({ avatar, username, tag, location, stats }) => {
 return (
-    <div>
-     <div>
+    <div className={styles.profile}>
+     <div className={styles.profile__box}>
         <Avatar avatar={avatar} />
         <Username username={username} />
         <Tag tag={tag} />
